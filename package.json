@@ -1,0 +1,22 @@
+{
+  "name": "perpustakaan-responsi-modul1-ppb",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "description": "REST API pencatatan peminjaman buku perpustakaan - Responsi Modul 1 PPB 2026",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "ISI_NAMA",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.113.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
